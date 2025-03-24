@@ -1,0 +1,159 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f3f4f6;
+    color: #333;
+    padding: 50px 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 1rem;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+input[type="number"], select {
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    transition: border 0.3s ease;
+}
+
+input[type="number"]:focus, select:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+select {
+    cursor: pointer;
+}
+
+button {
+    padding: 12px;
+    font-size: 1.1rem;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:focus {
+    outline: none;
+}
+
+/* Result Styling */
+.result {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.result p {
+    margin: 0;
+}
+
+.result p:nth-child(1) {
+    color: #d9534f;
+}
+
+.result p:nth-child(2) {
+    color: #5bc0de;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    form {
+        gap: 15px;
+    }
+
+    label {
+        font-size: 0.9rem;
+    }
+
+    input[type="number"], select {
+        font-size: 0.9rem;
+    }
+
+    button {
+        font-size: 1rem;
+    }
+
+    .result {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    .form-group label {
+        font-size: 0.8rem;
+    }
+
+    input[type="number"], select {
+        font-size: 0.8rem;
+    }
+
+    button {
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+
+    .result {
+        font-size: 0.9rem;
+    }
+}
