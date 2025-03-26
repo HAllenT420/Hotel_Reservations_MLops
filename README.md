@@ -82,10 +82,9 @@ docker run -p 5000:5000 hotel_mlops
 - **Advanced model interpretability using SHAP**
 
 ## 👨‍💻 Author
-[Your Name] - Data Scientist | MLOps Engineer
+Allen Tider - Data Scientist | MLOps Engineer
 
-🔗 **GitHub**: [Your GitHub Profile]
-🔗 **LinkedIn**: [Your LinkedIn Profile]
+Credits to Krish Naik Academy
 
 ---
 ⭐ If you found this project useful, please consider giving it a star!
